@@ -3,6 +3,7 @@ import './App.css';
 import Login from './component/Home';
 import Welcome from './component/product';
 import Image from "./component/addImage";
+import Register from "./pages/register/register";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
 
       <Route path="*" element={<Login/>} />
       
-      <Route path="/image" element={<Image/>} />
+      <Route path="/image" element={<Register/>} />
     </Routes>
     </BrowserRouter>
     </div>
